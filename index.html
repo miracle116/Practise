@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+      .big{
+        width: 1000px;
+        height: 500px;
+        position: relative;
+      }
+      .photo{
+         width: 100%;
+         height: 100%;
+         margin-left: 210px;
+         position:absolute;
+      }
+   
+
+      .left{
+        width: 55px;
+        height: 55px;
+        left: 230px;
+        top: 210px;
+        border-radius: 50%;
+        background-color:#000;
+        position:absolute;
+        opacity: .5;
+      }
+
+      .left1{
+        width: 40%;
+        margin-top: 13px;
+        margin-left: 13px;
+      }
+ 
+     .right1{
+      width: 55%;
+      margin-left: 15px;
+      margin-top: 10px;
+     }
+  
+      .right{
+        width: 55px;
+        height: 55px;
+        left: 1135px;
+        top: 210px;
+        border-radius: 50%;
+        background-color:#000;
+        position:absolute;
+        opacity: .5;
+      }
+
+    .nav1 a,.nav2 a{
+       text-decoration: none;
+       color: #FFF;
+       display: block;
+       /* padding-bottom: 20px; */
+       
+    }
+
+    .nav1 li{
+      position: relative;
+      float: left;
+      top: 70px;
+      left: 495px;
+      margin-right: 20px;
+      font-size: 14px;
+      overflow: hidden;
+    }
+  
+    .nav1 div{
+        background-color:#FFF;
+        border-top: 3px solid green;
+        position: absolute;
+        width:135px;
+        height: 180px;
+        /* top: 30px; */
+        opacity: .9;
+      }
+      .nav1 li:nth-child(2) div{
+        height: 145px;
+      }
+      .nav1 li:nth-child(3) div{
+        height: 110px;
+      }
+      .nav1 li:nth-child(4) div{
+        height: 145px;
+      }
+      .nav1 li:nth-child(6) div{
+        height: 110px;
+      }
+      .nav1 li:nth-child(7) div{
+        height: 145px;
+      }
+      .nav1 li:nth-child(8) div{
+        height: 110px;
+      }
+      
+      .nav1 span{
+        display: block;
+        height: 20px;
+        position: relative;
+      }
+      .nav1 span img{
+        position: absolute;
+        display:none ;
+        width: 25%;
+        top: 11px;
+        right:15px;
+      }
+      .nav1 li:nth-child(9) div{
+        background-color:#FFF;
+        position: absolute;
+        width:135px;
+        height: 75px;
+        /* top: 30px; */
+        left: -50px;
+      }
+      
+    .nav1 li:hover{
+      overflow: visible;
+    }
+    .nav1 li div a:hover{
+      color:green;
+    }
+    .top a{
+      display: block;
+      height: 32px;
+      line-height: 32px;
+      color: #000;
+     font-size: 5px;
+      margin-left: 20px;
+      margin-right: 15px;
+      border-bottom: 1px solid green;
+    }
+
+    .nav2{
+      position:fixed;
+      bottom: 60px;
+      right: -10px;
+    }
+
+    .nav2 li{
+      display: block;
+      background-color: #2A6835B3;
+      width: 100px;
+      height: 30px;
+      /* line-height: 30px; */
+      position: relative; 
+      margin-bottom: 1px ;
+      /* bottom: 100px; */
+    /* font-size: 1px; */
+  
+      transition:.3s;
+    }
+    
+    .nav2 a{
+      display: block;
+      padding-left:10px;
+      position: relative;
+      font-size:2px;
+      /* margin-left:0; */
+    
+    }
+    /* .nav2 a:hover{
+      
+    } */
+    .nav2 li:hover{
+      transform:translateX(-10px);
+      background-color:rgb(245,173,51);
+    } 
+   
+     .photo2{
+      display:block;
+        width: 20px;
+        padding-top: 5px;
+        position: absolute;
+     }
+      .nav2 span{
+      
+      display: inline-block;
+     
+      /* height: 5px;
+      line-height: 5px; */
+      position: absolute;
+      left: 38px;
+      top:8px;
+     
+      
+     } 
+  </style>
+
+</head>
+<body>
+   <div class="big">
+
+<div >
+  <img class="photo" src="./one.jpg" alt="">
+</div>
+<!--<div > 
+  <img class="photo" src="./two.jpg" alt="">
+</div>
+<div >
+  <img class="photo" src="./threeA.jpg" alt="">
+</div>
+<div >
+  <img class="photo" src="./four.jpg" alt="">
+</div>
+<div > 
+  <img class="photo" src="./five.png" alt="">
+</div> -->
+<a href="javascript:;">
+<div class="left">
+   <img class="left1" src="./左、箭头左.png" alt="">
+</div>
+</a>
+
+<a href="javascript:;">
+<div class="right">
+  <img class="right1" src="./右箭头.png" alt="">
+</div>
+</a>
+
+<ul class="nav1">
+  <li><a href="javascript:;">学校概况</a><span><img class="a1" src="./page_turning_less.png" alt=""></span>
+    <div class="top">
+     <a href="javascript:;">学校简介</a><a href="javascript:;">现任领导</a><a href="javascript:;">学校章程</a><a href="javascript:;">校训校徽校歌</a><a href="javascript:;">校园风景</a>
+    </div>
+  </li>
+  <li><a href="javascript:;">组织机构</a><span><img class="a2" src="./page_turning_less.png" alt=""></span>
+    <div class="top">
+        <a href="javascript:;">学院（部）</a><a href="javascript:;">管理服务机构</a><a href="javascript:;">科研单位</a><a href="javascript:;">直属单位</a>
+    </div>
+  </li>
+  <li><a href="javascript:;">师资队伍</a><span><img class="a3" src="./page_turning_less.png" alt=""></span>
+    <div class="top">
+      <a href="javascript:;">队伍概况</a><a href="javascript:;">人才招聘</a><a href="javascript:;">杰出人才</a>
+    </div>
+  </li>
+  <li><a href="javascript:;">人才培养</a><span><img class="a4" src="./page_turning_less.png" alt=""></span>
+    <div class="top">
+      <a href="javascript:;">本科生培养</a><a href="javascript:;">研究生培养</a><a href="javascript:;">留学生培养</a><a href="javascript:;">继续教育</a>
+    </div>
+  </li>
+  <li><a href="javascript:;">招生就业</a><span><img class="a5" src="./page_turning_less.png" alt=""></span>
+    <div class="top">
+      <a href="javascript:;">本科生招生</a><a href="javascript:;">研究生招生</a><a href="javascript:;">成人教育招生</a><a href="javascript:;">留学生招生</a><a href="javascript:;">就业指导</a>
+    </div>
+  </li>
+  <li><a href="javascript:;">科学研究</a><span><img class="a6" src="./page_turning_less.png" alt=""></span>
+    <div class="top">
+      <a href="javascript:;">科学研究简况</a><a href="javascript:;">重点科研平台</a><a href="javascript:;">学术期刊</a>
+    </div>
+  </li>
+  <li><a href="javascript:;">学科建设</a><span><img class="a7" src="./page_turning_less.png" alt=""></span>
+    <div  class="top">
+      <a href="javascript:;">重点学科</a><a href="javascript:;">博士点</a><a href="javascript:;">学术硕士点</a><a href="javascript:;">专业硕士点</a>
+    </div>
+  </li>
+  <li><a href="javascript:;">人才招聘</a><span><img class="a8" src="./page_turning_less.png" alt=""></span>
+    <div class="top">
+      <a href="javascript:;">高层次人才招聘告</a><a href="javascript:;">博士后招聘公告</a><a href="javascript:;">其他系列招聘公告</a>
+    </div>
+  </li>
+  <li><a href="javascript:;">合作交流</a><span><img class="a9" src="./page_turning_less.png" alt=""></span>
+    <div class="top">
+      <a href="javascript:;">国际交流与合作</a><a href="javascript:;">港澳台交流与合作</a>
+    </div>
+  </li>
+</ul>
+
+  </div>
+
+<div>
+<ul class="nav2">
+  <li><a href="javascript:;"><img class="photo2" src="./s1.png" alt=""><span>数字广大</span></a></li>
+  <li><a href="javascript:;"><img class="photo2" src="./s2.png" alt=""><span>个人邮箱</span></a></li>
+  <li><a href="javascript:;"><img class="photo2" src="./s3.png" alt=""><span>图书馆</span></a></li>
+  <li><a href="javascript:;"><img class="photo2" src="./s5.png" alt=""><span>招标信息</span></a></li>
+  <li><a href="javascript:;"><img class="photo2" src="./s6.png" alt=""><span>热门站点</span></a></li>
+  <li><a href="javascript:;"><img class="photo2" src="./s7.png" alt=""><span>校友之窗</span></a></li>
+  <li><a href="javascript:;"><img class="photo2" src="./s8.png" alt=""><span>领导信箱</span></a></li>
+  
+</ul>
+</div>
+
+<script>
+    const ph=["./one.jpg","./two.jpg","./threeA.jpg","./four.jpg","./five.png"]
+    let i=0
+    const img=document.querySelector('.photo')
+    const left=document.querySelector('.left')
+    left.addEventListener('click',function() {
+      clearInterval(stop)
+         i--
+          if(i===-1)
+          {
+            i=4
+          }
+          img.src=ph[i]
+          stop =setInterval(function(){
+        i++
+          if(i===5)
+          {
+            i=0
+          }
+          img.src=ph[i]
+       },2000)
+    } )  
+
+    let stop = setInterval(function(){
+      i++
+          if(i===5)
+          {
+            i=0
+          }
+          img.src=ph[i]
+     },2000)
+
+    img.addEventListener('mouseleave',function(){
+      clearInterval(stop)
+      stop =setInterval(function(){
+        i++
+          if(i===5)
+          {
+            i=0
+          }
+          img.src=ph[i]
+       },2000)
+    })
+
+    img.addEventListener('mouseenter',function(){
+       clearInterval(stop)
+    
+    })
+
+    const right=document.querySelector('.right')
+    right.addEventListener('click',function() {
+      clearInterval(stop)
+         i++
+          if(i===5)
+          {
+            i=0
+          }
+          img.src=ph[i]
+          stop =setInterval(function(){
+        i++
+          if(i===5)
+          {
+            i=0
+          }
+          img.src=ph[i]
+       },2000)
+    })
+    
+    const li=document.querySelector('.nav1 li')
+    const a1 =document.querySelector('.a1')
+  li.addEventListener('mouseenter',function(){
+      a1.style.display='block'
+  })
+  li.addEventListener('mouseleave',function(){
+      a1.style.display='none'
+  })
+
+
+
+</script>
+
+</body>
+</html>
